@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function MyComponent() {
   return (
     <View style={styles.container}>
-      {/* ข้อความหัวข้อที่รับค่าจาก props */}
+      {/* แสดงข้อความหัวข้อ */}
       <Text style={styles.text}>แอพพลิเคชั่นบุหรี่ไฟฟ้า</Text>
     </View>
   );
