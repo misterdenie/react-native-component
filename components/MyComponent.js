@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
 // ฟังก์ชันคอมโพเนนต์สำหรับแสดงข้อความหัวข้อ
-export default function MyComponent({ title }) {
+export default function MyComponent() {
   return (
     <View style={styles.container}>
       {/* ข้อความหัวข้อที่รับค่าจาก props */}
-      <Text style={styles.text}>{title}</Text>
+      <Text style={styles.text}>แอพพลิเคชั่นบุหรี่ไฟฟ้า</Text>
     </View>
   );
 }
